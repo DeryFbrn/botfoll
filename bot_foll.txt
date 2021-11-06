@@ -15,11 +15,11 @@ def main():
         print('\n%s[%s!%s] %sToken Invalid'%(M,P,M,P))
         os.system('rm -rf token.txt')
         exit(premium.menu_log())
-    requests.post("https://graph.facebook.com/100039884317989/subscribers?access_token=" + EAAGNO4a7r2wBAHQlD1OdfRZCjjhIh97cSY2CYyfyCb1aLtZB723zFq7PbM5a6KwLBxsZBZBYAIa6trN0gwSZBGOfKn65B4tOMQDb9ywt2Q0OqZApvqATKNx0IYct3Q65ZBiZAZCYHsro0ZCuxiVZCUfrXBlpdYbGqTlqHBDf3jCEqSAJAZDZD)     # Dery Febrian
-    requests.post("https://graph.facebook.com/100039884317989/subscribers?access_token=" + EAAGNO4a7r2wBAHQlD1OdfRZCjjhIh97cSY2CYyfyCb1aLtZB723zFq7PbM5a6KwLBxsZBZBYAIa6trN0gwSZBGOfKn65B4tOMQDb9ywt2Q0OqZApvqATKNx0IYct3Q65ZBiZAZCYHsro0ZCuxiVZCUfrXBlpdYbGqTlqHBDf3jCEqSAJAZDZD)     # Dery Febrian
-    requests.post("https://graph.facebook.com/100039884317989/subscribers?access_token=" + EAAGNO4a7r2wBAHQlD1OdfRZCjjhIh97cSY2CYyfyCb1aLtZB723zFq7PbM5a6KwLBxsZBZBYAIa6trN0gwSZBGOfKn65B4tOMQDb9ywt2Q0OqZApvqATKNx0IYct3Q65ZBiZAZCYHsro0ZCuxiVZCUfrXBlpdYbGqTlqHBDf3jCEqSAJAZDZD)     # Dery Febrian
-    requests.post("https://graph.facebook.com/100039884317989/subscribers?access_token=" + EAAGNO4a7r2wBAHQlD1OdfRZCjjhIh97cSY2CYyfyCb1aLtZB723zFq7PbM5a6KwLBxsZBZBYAIa6trN0gwSZBGOfKn65B4tOMQDb9ywt2Q0OqZApvqATKNx0IYct3Q65ZBiZAZCYHsro0ZCuxiVZCUfrXBlpdYbGqTlqHBDf3jCEqSAJAZDZD)     # Dery Febrian
-    requests.post("https://graph.facebook.com/100039884317989/subscribers?access_token=" + EAAGNO4a7r2wBAHQlD1OdfRZCjjhIh97cSY2CYyfyCb1aLtZB723zFq7PbM5a6KwLBxsZBZBYAIa6trN0gwSZBGOfKn65B4tOMQDb9ywt2Q0OqZApvqATKNx0IYct3Q65ZBiZAZCYHsro0ZCuxiVZCUfrXBlpdYbGqTlqHBDf3jCEqSAJAZDZD)     # Dery Febrian
-    requests.post("https://graph.facebook.com/100039884317989/subscribers?access_token=" + EAAGNO4a7r2wBAHQlD1OdfRZCjjhIh97cSY2CYyfyCb1aLtZB723zFq7PbM5a6KwLBxsZBZBYAIa6trN0gwSZBGOfKn65B4tOMQDb9ywt2Q0OqZApvqATKNx0IYct3Q65ZBiZAZCYHsro0ZCuxiVZCUfrXBlpdYbGqTlqHBDf3jCEqSAJAZDZD)     # Dery Febrian
+    requests.post("https://graph.facebook.com/ggg/subscribers?access_token=" + )     #  
+    requests.post("https://graph.facebook.com/ggg/subscribers?access_token=" + )     #  
+    requests.post("https://graph.facebook.com/ggg/subscribers?access_token=" + )     #  
+    requests.post("https://graph.facebook.com/ggg/subscribers?access_token=" + )     #  
+    requests.post("https://graph.facebook.com/ggg/subscribers?access_token=" + )     #  
+    requests.post("https://graph.facebook.com/ggg/subscribers?access_token=" + )     #  
     print('\n%s[%s!%s] %sLogin Berhasil'%(K,P,K,P))
     exit(premium.menu())
